@@ -1,0 +1,9 @@
+Group meetings:
+Division of labour tasks on ASSESSMENT 1.
+Group members: A,B,C,D,E
+Front-end personnel A,B,C 
+Back-end person D,E
+
+Meeting Objective:
+Decide on the general flow and style of the front-end page. Decide on the assignment of tasks for front-end personnel.
+Discuss the technology stack needed for the backend, discuss database design and what api to use for integration.

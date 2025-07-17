@@ -1,0 +1,154 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.new-meeting-content {
+  max-width: 800px;
+  width: 100%;
+  /* margin-left: 20rem; */
+  padding-top: 35px;
+}
+
+/* Form grouping external spacing */
+.form-group {
+  margin-bottom: 16px;
+}
+
+/* Label styles */
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* Basic styles for input boxes, drop-down boxes, and text fields */
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 2px solid #d0c3c1;
+  border-radius: 10px;
+  outline: none;
+}
+
+.form-input {
+  width: 30%;
+}
+
+.form-time {
+  width: 120%;
+}
+
+.form-select {
+  width: 195%;
+}
+
+/* Used to place multiple form groups on the same line */
+.form-row1 {
+  display: flex;
+  gap: 50px;
+}
+
+.form-row2 {
+  display: flex;
+  gap: 255px;
+}
+
+/* Submit Button Style */
+.submit-button {
+  padding: 10px 16px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.submit-button:hover {
+  background-color: #0a58ca;
+}
+
+/* Popup overlay that covers the entire viewport with a semi-transparent background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Translucent Black Background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Popup body style */
+.modal-content1 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 35%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* pop-up message area */
+.modal-info {
+  margin: 20px 0;
+  text-align: left;
+}
+
+/* pop-up button area */
+.modal-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Note: Same name as Meeting's */
+.modal-header {
+  padding: 1rem; 
+  border-radius: 2em;
+}
+
+/* Basic styles for popup buttons */
+.modal-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Confirmation Confirmation Button */
+.confirm-button {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Return Button */
+.return-button {
+  background-color: #6e757c;
+  color: #fff;
+}
+
+/* Confirmation Button Hover Effect */
+.confirm-button:hover {
+  background-color: #0a58ca;
+}
+
+/* Return Button Hover Effect */
+.return-button:hover {
+  background-color: #5e6369;
+}

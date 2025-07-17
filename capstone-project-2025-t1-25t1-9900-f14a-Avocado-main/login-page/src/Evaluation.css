@@ -1,0 +1,65 @@
+/* .evaluation-content {
+  padding-top: 65px;
+} */
+
+/* .container {
+  margin-left: 10rem;
+  margin-top: 5rem;
+  width: 50%;
+} */
+
+.evaluation-content h2 {
+  font-weight: bold;
+  color: #4b4f56;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contribution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contribution-cell {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+}
+
+.contribution-cell .member-name {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.contribution-cell input[type="range"] {
+  width: 100%;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.contribution-cell .percentage-display {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2f4f9f;
+}
+
+.evaluation-content textarea {
+  resize: vertical;
+}
+
+.evaluation-content .btn-primary {
+  min-width: 150px;
+}
+
+.evaluation-content .text-muted {
+  font-size: 0.9rem;
+}
+
+.evaluation-content label.form-label {
+  font-weight: 500;
+  color: #444;
+}

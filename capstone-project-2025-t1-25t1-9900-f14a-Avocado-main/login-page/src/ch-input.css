@@ -1,0 +1,34 @@
+.chat-input-container {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
+
+.toolbar button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.toolbar button:hover {
+  background-color: #eee;
+}
+
+.chat-editor {
+  min-height: 120px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  outline: none;
+  overflow-y: auto;
+}
+
+.chat-editor:empty:before {
+  content: attr(placeholder);
+  color: #888;
+}

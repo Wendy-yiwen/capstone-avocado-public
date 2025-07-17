@@ -1,0 +1,14 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #E3F2FD;
+  height: 60px;
+  border-bottom: 1px solid #dee2e6;
+  z-index: 2000;
+}
+
+.text-primary {
+  color: #429483 !important;
+}

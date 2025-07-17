@@ -1,0 +1,149 @@
+.group-content {
+  /* padding-top: 65px; */
+  padding-bottom: 35px;
+  padding-left: 25px;
+}
+
+.card {
+  border: none;
+  border-radius: 0.4rem;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #fff;
+}
+
+/* .card-header {
+    background-color: #f8f9fa;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  } */
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* .table td button {
+  border-radius: 50%;
+  border: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  background: none;
+  transition: background-color 0.3s ease;
+}
+
+.table td button:hover {
+  background-color: #d0e7ff;
+  color: #0d6efd;
+} */
+
+/* .table thead th {
+    border-bottom: 2px solid #dee2e6;
+    background-color: #f0f2f5;
+    color: #333;
+  } */
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+.table td button svg {
+  width: 20px;
+  height: 20px;
+}
+
+h2.text-center {
+  font-weight: 600;
+  color: #333;
+}
+
+.progress {
+  background-color: #e9ecef;
+  height: 18px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  line-height: 18px;
+  position: relative;
+}
+
+.progress-bar {
+  text-align: center;
+  transition: width 1s ease-in-out;
+}
+
+.progress-bar-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #212529;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Character badge style optimization */
+.badge {
+  padding: 0.4em 0.65em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  width: 70px;
+}
+
+.modal-content-group {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 550px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-body ul {
+  list-style-type: disc;
+}
+
+.custom-modal-header {
+  background: linear-gradient(to right, #deeefc, #f8f9fa);
+  border-bottom: 1px solid #dee2e6;
+  padding: 1rem 1.5rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  color: #2c3e50;
+}
+
+/* Hide up and down arrows on Chrome, Safari, Edge */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

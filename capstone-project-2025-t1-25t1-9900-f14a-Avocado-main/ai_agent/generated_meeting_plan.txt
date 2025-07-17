@@ -1,0 +1,57 @@
+# Meeting Plan
+
+## Meeting Details
+- **Date:** 15 March 2025
+- **Time:** 2:00 p.m. - 3:00 p.m.
+- **Location:** Conference Room B or Virtual Meeting Link (to be determined)
+- **Participants:** A (Front-end), B (Front-end), C (Front-end), D (Back-end), E (Back-end)
+
+---
+
+## Meeting Objective
+The primary objective of the meeting is to:
+1. Decide on the overall flow and style of the front-end page for ASSESSMENT 1.
+2. Assign tasks to front-end personnel (A, B, C).
+3. Discuss the technology stack for the back-end, focusing on database design and API integration.
+
+---
+
+## Agenda
+1. **Welcome and Introduction (2:00 - 2:05 PM)**
+   - **Duration:** 5 minutes
+   - **Presenter:** A
+
+2. **Discussion on Front-end Page Layout and Style (2:05 - 2:25 PM)**
+   - **Duration:** 20 minutes
+   - **Presenter:** B
+   - Objective: Review design ideas and finalize the layout and style decisions.
+
+3. **Task Assignment for Front-end Personnel (2:25 - 2:40 PM)**
+   - **Duration:** 15 minutes
+   - **Presenter:** C
+   - Objective: Assign specific front-end tasks to A, B, and C based on skills and availability.
+
+4. **Back-end Technology Stack Discussion (2:40 - 2:50 PM)**
+   - **Duration:** 10 minutes
+   - **Presenter:** D
+   - Objective: Discuss preferred technologies for the backend and finalize the stack.
+
+5. **Database Design and API Integration Discussion (2:50 - 3:00 PM)**
+   - **Duration:** 10 minutes
+   - **Presenter:** E
+   - Objective: Outline the database schema and API requirements for integration.
+
+6. **Wrap-up and Next Steps (3:00 PM)**
+   - **Duration:** 5 minutes (if time allows)
+   - **Presenter:** A
+   - Objective: Summarize decisions made, establish deadlines and outline the next meeting.
+
+---
+
+## Preparation and Follow-up
+- **Prior to the Meeting:** Each group member should come prepared with any design suggestions, task lists, and preferred technology options.
+- **Post-Meeting Actions:** Document meeting notes, outlining decisions made and action items, to be sent to all participants by A by March 17, 2025.
+
+---
+
+This meeting plan ensures that each topic is clearly addressed, with appropriate time allocated for discussion and decision-making.

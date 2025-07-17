@@ -1,0 +1,37 @@
+.card-container {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two-column Layout */
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+  width:20%;
+  margin-left: 31rem;
+}
+  
+#card-group1 {
+  grid-column: span 2; /* Make card1 take up the entire line */
+  width: 42rem;
+  height: 15rem;
+  border: 2px solid #d0c3c1;
+}
+
+#card-group2 {
+  border: 2px solid #d0c3c1;
+}
+
+#card-group3 {
+  border: 2px solid #d0c3c1;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.list-group-items {
+  border: none;
+  color: #0d6efd;
+  margin: 5px;
+}

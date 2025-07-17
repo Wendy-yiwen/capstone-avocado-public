@@ -1,0 +1,116 @@
+/* Section title styling */
+.worklog-title {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Main worklog table layout */
+.worklog-table {
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 1rem;
+  border-collapse: collapse;
+  border: 2px solid #d0c3c1;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* Table cell layout and text handling */
+.worklog-table th,
+.worklog-table td {
+  border: 1px solid #d0c3c1;
+  padding: 8px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Header cell styles */
+.worklog-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+/* Cell truncation behavior */
+.worklog-table td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Dropdown select styling */
+.worklog-table select {
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: transparent;
+  padding: 4px 8px;
+  font-size: 14px;
+  color: #333;
+  box-shadow: none;
+  appearance: none;
+}
+
+/* Focus style for selects */
+.worklog-table select:focus {
+  outline: none;
+  border: 1px solid #aaa;
+  background-color: #f9f9f9;
+}
+
+/* Header dropdown filter style */
+.worklog-header-select {
+  font-size: 14px;
+  padding: 4px 6px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+/* Hover effect for "+ Create" row */
+.create-row:hover td {
+  background-color: #f9f9f9 !important;
+}
+
+/* Column width definitions */
+.worklog-table th:nth-child(1),
+.worklog-table td:nth-child(1) {
+  width: 9%;
+}
+
+.worklog-table th:nth-child(2),
+.worklog-table td:nth-child(2) {
+  width: 11%;
+}
+
+.worklog-table th:nth-child(3),
+.worklog-table td:nth-child(3) {
+  width: 13%;
+}
+
+.worklog-table th:nth-child(4),
+.worklog-table td:nth-child(4) {
+  width: 25%;
+}
+
+.worklog-table th:nth-child(5),
+.worklog-table td:nth-child(5) {
+  width: 13%;
+}
+
+.worklog-table th:nth-child(6),
+.worklog-table td:nth-child(6) {
+  width: 10%;
+}
+
+.worklog-table th:nth-child(7),
+.worklog-table td:nth-child(7) {
+  width: 12%;
+}
+
+.worklog-table th:nth-child(8),
+.worklog-table td:nth-child(8) {
+  width: 7%;
+}

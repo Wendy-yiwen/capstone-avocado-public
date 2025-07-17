@@ -1,0 +1,62 @@
+name: CI Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend-and-frontend-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: testdb
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # Backend - Python (Flask)
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run Python tests
+        working-directory: ai_agent
+        run: |
+          PYTHONPATH=.. pytest tests/ai_agent/
+
+      # Backend - Node.js (initialpage)
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Node.js dependencies
+        working-directory: initialpage
+        run: npm install
+
+      - name: Run Node.js tests
+        working-directory: initialpage
+        run: npx jest
+
+      # Frontend - React (login-page)
+      - name: Install Frontend dependencies
+        working-directory: login-page
+        run: npm install
+
+      - name: Run Frontend tests
+        working-directory: login-page
+        run: npx jest

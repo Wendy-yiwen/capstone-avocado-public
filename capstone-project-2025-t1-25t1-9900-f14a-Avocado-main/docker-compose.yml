@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  # ─── backend───────────────────────────
+  initialpage:
+    build: ./initialpage
+    container_name: initialpage
+    # let server.js
+    environment:
+      - PORT=3001
+      - HOST=0.0.0.0
+    ports:
+      - "5001:3001"
+
+  # ─── forntend───────────────────────────
+  loginpage:
+    build: ./login-page
+    container_name: loginpage
+    environment:
+      - PORT=3000
+      - HOST=0.0.0.0
+    ports:
+      - "3000:3000"
+
+  # ─── channel────────────────
+  channel:
+    build: ./ai_agent
+    container_name: channel_service
+    command: ["python", "channel_service.py"]
+    environment:
+      - PORT=5002
+    ports:
+      - "5002:5002"
+
+networks:
+  default:
+    driver: bridge
