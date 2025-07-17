@@ -1,6 +1,0 @@
-node_modules
-node_modules
-# Ignore virtual environment
-ai_agent/new_env/
-# Ignore macOS system file
-.DS_Store
